@@ -16,19 +16,19 @@ class CustomNavbar extends StatelessWidget {
           children: [
           IconButton(onPressed: (){
             Navigator.pushNamed(context, '/');
-          }, icon: Icon(Icons.home,color: Colors.grey,)),
+          }, icon: Icon(Icons.map_outlined,color: Colors.grey,)),
           IconButton(onPressed: (){
             Navigator.pushNamed(context, '/');
-          }, icon: Icon(Icons.shopping_cart,color: Colors.grey,)),
+          }, icon: Icon(Icons.email_outlined,color: Colors.grey,)),
           IconButton(onPressed: (){
             Navigator.pushNamed(context, '/');
-          }, icon: Icon(Icons.person,color: Colors.grey,)),
+          }, icon: Icon(Icons.home_outlined,color: Colors.grey,)),
             IconButton(onPressed: (){
               Navigator.pushNamed(context, '/');
-            }, icon: Icon(Icons.shopping_cart,color: Colors.grey,)),
+            }, icon: Icon(Icons.library_books,color: Colors.grey,)),
             IconButton(onPressed: (){
               Navigator.pushNamed(context, '/');
-            }, icon: Icon(Icons.person,color: Colors.grey,)),
+            }, icon: Icon(Icons.grid_view,color: Colors.grey,)),
         ]),
       ),
     );

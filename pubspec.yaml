@@ -20,7 +20,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.18.4 <3.0.0'
+  sdk: '>=2.17.4 <3.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -70,12 +70,41 @@ flutter:
      - assets/images/ambulance 1.png
      - assets/images/car 3.png
      - assets/images/car 2.png
+     - assets/images/camera (1) 1.png
+     - assets/images/Rafi.jpg
+     - assets/images/car 4.png
+     - assets/images/driver 1.png
+     - assets/images/Car Brands/Rectangle 3871.png
+     - assets/images/Car Brands/Rectangle 3872.png
+     - assets/images/Car Brands/Rectangle 3873.png
+     - assets/images/Car Brands/Rectangle 3874.png
+     - assets/images/Car Brands/Rectangle 3875.png
+     - assets/images/Car Brands/Rectangle 3876.png
+     - assets/images/Car Brands/Rectangle 3877.png
+     - assets/images/Car Brands/Rectangle 3878.png
+     - assets/images/Car Brands/Rectangle 3879.png
+     - assets/images/Car Brands/Rectangle 3880.png
+     - assets/images/Car Brands/Rectangle 3881.png
+     - assets/images/Car Brands/Rectangle 3882.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
+
+
+  fonts:
+       - family: Montserrat
+         fonts:
+           - asset: assets/Fonts/Montserrat-Bold.ttf
+           - asset: assets/Fonts/Montserrat-Light.ttf
+           - asset: assets/Fonts/Montserrat-Medium.ttf
+           - asset: assets/Fonts/Montserrat-Regular.ttf
+           - asset: assets/Fonts/Montserrat-SemiBold.ttf
+           - asset: assets/Fonts/Montserrat-Thin.ttf
+
+
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
